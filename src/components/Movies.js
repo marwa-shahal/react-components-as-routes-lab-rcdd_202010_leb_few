@@ -6,7 +6,7 @@ const Movies = () => {
     <div>
         {/*{code here}*/}
         <h1> Movies Page </h1>
-        {movies.map((movie) => {
+        {movies.map((movie) => (
         <div>
         <h4> {movie.name} </h4>
         <p> {movie.time} </p>
@@ -14,6 +14,7 @@ const Movies = () => {
           {movie.genres.map((genre)=>(<li>{genre}</Li>))}
         </ul>
         </div>
+        ))}
     </div>
   );
 };
