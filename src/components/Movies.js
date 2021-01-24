@@ -7,6 +7,7 @@ const Movies = () => {
         {/*{code here}*/}
         <h1> Movies Page </h1>
         <div>
+        {movies.map(movie=>
         <ul>
         
         </ul>
