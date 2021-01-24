@@ -14,9 +14,9 @@ const link = {
 
 const NavBar = () => {
   return (
-    <div>
+    <div classname="navbar>
       {/*{code here}*/}
-      <div>
+      
        <NavLink
           to="/"
           exact
@@ -52,7 +52,7 @@ const NavBar = () => {
             background: 'darkblue'
           }}
         >Actors</NavLink>
-        </div>
+      
     </div>
   );
 };
