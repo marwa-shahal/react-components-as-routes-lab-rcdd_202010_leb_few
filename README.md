@@ -1,4 +1,4 @@
-n# React Components as Routes Lab
+# React Components as Routes Lab
 
 ## Overview
 
