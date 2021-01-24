@@ -14,6 +14,9 @@ const App = (props) => {
   return (
     <Router>
       {/*{code here}*/}
+      <Navbar />
+      <Route path="/" component="" >
+      <Route path=""
     </Router>
   );
 };
