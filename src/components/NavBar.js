@@ -5,6 +5,7 @@ const NavBar = () => {
   return (
     <div>
       {/*{code here}*/}
+      
     </div>
   );
 };
