@@ -7,11 +7,11 @@ const Movies = () => {
         {/*{code here}*/}
         <h1> Movies Page </h1>
         {movies.map((movie,index) => (
-        <div key="index">
+        <div key={index}>
         <h4> {movie.name} </h4>
         <p> {movie.time} </p>
         <ul>
-          {movie.genres.map((genre,index)=>(<li key="index">{genre}</li>))}
+          {movie.genres.map((genre,index)=>(<li key={index}>{genre}</li>))}
         </ul>
         </div>
         ))}
