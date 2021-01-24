@@ -9,7 +9,7 @@ const Movies = () => {
         {movies.map((movie) => {
         <div>
         <h4> {movie.name} </h4>
-        <
+        <p> {movie.time} </p>
         <ul>
         
         </ul>
