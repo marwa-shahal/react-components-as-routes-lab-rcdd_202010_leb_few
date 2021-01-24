@@ -15,7 +15,7 @@ const App = (props) => {
     <Router>
       {/*{code here}*/}
      <div>
-      <Navbar />
+      <NavBar />
       <Route exact path="/" component={Home} />
       <Route exact path="/movies" component={Movies} />
       <Route exact path="/directors" component={Directors} />
