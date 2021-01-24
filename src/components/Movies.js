@@ -6,8 +6,7 @@ const Movies = () => {
     <div>
         {/*{code here}*/}
         <h1> Movies Page </h1>
-        <div>
-        {movies.map(movie=>
+        {movies.map((movie) => {<div>
         <ul>
         
         </ul>
