@@ -14,7 +14,7 @@ const link = {
 
 const NavBar = () => {
   return (
-    <div classname="navbar>
+    <div className="navbar">
       {/*{code here}*/}
       
        <NavLink
