@@ -11,7 +11,7 @@ const Movies = () => {
         <h4> {movie.name} </h4>
         <p> {movie.time} </p>
         <ul>
-          {movie.genres.map((genre)=>(<li>{genre}</Li>))}
+          {movie.genres.map((genre)=>(<li>{genre}</li>))}
         </ul>
         </div>
         ))}
